@@ -1,0 +1,41 @@
+:root {
+  --primary: #16062a;
+  --bg1: #290164;
+  --bg2: #f5f5f5;
+  --secondary: #fca216;
+  --third: #e93800;
+  --fourth: #028ef3;
+  --fifth: #066bf5;
+}
+
+.nav-style {
+  background: rgb(41, 1, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 1, 100, 1) 0%,
+    rgba(22, 6, 42, 1) 100%
+  );
+}
+.footer-style {
+  background: rgb(41, 1, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 1, 100, 1) 0%,
+    rgba(22, 6, 42, 1) 100%
+  );
+}
+
+h1.title {
+  background-image: linear-gradient(to bottom, var(--fourth), var(--bg1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-root {
+  background: rgb(41, 1, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 1, 100, 1) 0%,
+    rgba(22, 6, 42, 1) 100%
+  );
+}
